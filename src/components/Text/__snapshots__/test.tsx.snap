@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Text /> should match snapshots for different prop combinations 1`] = `
+.c0 {
+  color: #212429;
+  line-height: 1.7;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+@media (min-width: 768px) {
+
+}
+
+<div>
+  <p
+    class="c0"
+  >
+    Medium Dark Text
+  </p>
+</div>
+`;
+
+exports[`<Text /> should match snapshots for different prop combinations 2`] = `
+.c0 {
+  color: #FFFFFF;
+  line-height: 1.7;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+@media (min-width: 768px) {
+  .c0 {
+    font-size: 2rem;
+  }
+}
+
+<div>
+  <p
+    class="c0"
+  >
+    Large Bold Text
+  </p>
+</div>
+`;
+
+exports[`<Text /> should render the white text as default 1`] = `
+.c0 {
+  color: #FFFFFF;
+  line-height: 1.7;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+<p
+  class="c0"
+>
+  Random text
+</p>
+`;
