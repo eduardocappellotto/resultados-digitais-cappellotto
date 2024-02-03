@@ -1,18 +1,18 @@
 import { Darker_Grotesque, Nunito, Red_Hat_Display } from 'next/font/google'
 
-export const nunitoFont = Nunito({
+export const nunito = Nunito({
     subsets: ['latin'],
     display: 'swap',
     weight: ['400', '700', '800'],
 })
 
-export const darkerGrotesqueFont = Darker_Grotesque({
+export const darkerGrotesque = Darker_Grotesque({
     subsets: ['latin'],
     display: 'swap',
     weight: ['700', '800', '900'],
 })
 
-export const redHatDisplayFont = Red_Hat_Display({
+export const redHatDisplay = Red_Hat_Display({
     subsets: ['latin'],
     display: 'swap',
     weight: ['700'],
