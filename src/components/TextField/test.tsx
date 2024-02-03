@@ -66,7 +66,7 @@ describe("<TextField />", () => {
 
   it("should render with a given value", () => {
     renderWithTheme(
-      <TextField label="TextField" id="field" value="Initial Value" />
+      <TextField readOnly label="TextField" id="field" value="Initial Value" />
     );
     const input = screen.getByRole("textbox");
     expect(input).toHaveValue("Initial Value");
@@ -74,14 +74,7 @@ describe("<TextField />", () => {
 
   it("should trigger onBlur event", async () => {
     const onBlur = jest.fn();
-    renderWithTheme(
-      <TextField
-        label="TextField"
-        id="field"
-        value="Initial Value"
-        onBlur={onBlur}
-      />
-    );
+    renderWithTheme(<TextField label="TextField" id="field" onBlur={onBlur} />);
 
     const input = screen.getByRole("textbox");
     userEvent.click(input);
