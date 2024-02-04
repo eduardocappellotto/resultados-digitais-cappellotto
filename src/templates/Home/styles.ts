@@ -95,3 +95,15 @@ export const FieldsWrapper = styled.div`
     }
   `}
 `
+
+export const Warnings = styled.div`
+  ${({ theme }) => css`
+    display: flex;
+    flex-direction: column;
+    gap: ${theme.spacings.sm};
+
+    > ul {
+      padding-left: 2rem;
+    }
+  `}
+`
