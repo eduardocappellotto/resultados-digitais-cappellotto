@@ -35,6 +35,6 @@ Neste projeto, desenvolvi um Gerador de Cartão de Visita fictício para a Resul
 
 ## Deploy na Vercel 🌐
 
-A aplicação foi implantada na plataforma Vercel e está disponível no seguinte link: [Gerador de Cartão de Visita Resultados Digitais](https://resultados-digitais-cappellotto-m5j9go7pr.vercel.app/).
+A aplicação foi implantada na plataforma Vercel e está disponível no seguinte link: [Gerador de Cartão de Visita Resultados Digitais](https://resultados-digitais-cappellotto.vercel.app/).
 
 Sinta-se à vontade para explorar a aplicação e testar seu funcionamento. O código-fonte também está disponível para revisão. Agradeço por conferir minha solução para o desafio Resultados Digitais! 🙌
