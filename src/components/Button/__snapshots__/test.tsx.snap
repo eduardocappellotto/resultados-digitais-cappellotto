@@ -3,7 +3,7 @@
 exports[`<Button /> should render the button 1`] = `
 .c0 {
   width: 100%;
-  height: 5.2rem;
+  height: 4.8rem;
   display: flex;
   gap: 0.8rem;
   justify-content: center;
@@ -12,14 +12,14 @@ exports[`<Button /> should render the button 1`] = `
   background-color: #F2BF4E;
   line-height: 24px;
   font-size: 1.6rem;
-  font-weight: 800;
+  font-weight: 700;
   text-transform: uppercase;
   color: #100C27;
   letter-spacing: 0.2px;
   cursor: pointer;
-  -webkit-box-shadow: 0px 6px 1px -2px;
-  -moz-box-shadow: 0px 6px 1px -2px;
-  box-shadow: 0px 6px 1px -2px;
+  -webkit-box-shadow: 0px 6px 1px -2px #000000;
+  -moz-box-shadow: 0px 6px 1px -2px #000000;
+  box-shadow: 0px 6px 1px -2px #000000;
   transition: 0.1s;
   flex-direction: row;
 }
@@ -31,12 +31,12 @@ exports[`<Button /> should render the button 1`] = `
 
 .c0[disabled] {
   background-color: #E1E4E8;
-  color: #636E7C;
+  color: #97A1AC;
   pointer-events: none;
   border-color: transparent;
-  -webkit-box-shadow: 0px 6px 1px -2px #636E7C;
-  -moz-box-shadow: 0px 6px 1px -2px #636E7C;
-  box-shadow: 0px 6px 1px -2px #636E7C;
+  -webkit-box-shadow: 0px 6px 1px -2px #97A1AC;
+  -moz-box-shadow: 0px 6px 1px -2px #97A1AC;
+  box-shadow: 0px 6px 1px -2px #97A1AC;
 }
 
 <button
