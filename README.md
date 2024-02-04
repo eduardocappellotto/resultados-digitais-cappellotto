@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Desafio Resultados Digitais - Resolução 🚀
 
-## Getting Started
+Neste projeto, desenvolvi um Gerador de Cartão de Visita fictício para a Resultados Digitais. Aqui estão as bibliotecas que utilizei, bem como uma visão geral dos objetivos concluídos.
 
-First, run the development server:
+## Bibliotecas Utilizadas 📚
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Next.js
+- React Hook Form
+- Zod
+- Styled Components
+- react-number-format
+- Jest e Testing Library
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Objetivos Concluídos ✅
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Desenvolvimento de uma aplicação responsiva, adaptada para diferentes tamanhos de tela (360px e 1440px).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Implementação de boas práticas de SEO, acessibilidade e HTML semântico.
 
-## Learn More
+- Criação de um formulário com validações rigorosas:
 
-To learn more about Next.js, take a look at the following resources:
+  - Nome: Requer pelo menos dois caracteres.
+  - E-mail: Verifica se o endereço é válido.
+  - Telefone: Possui uma máscara específica para números de telefones nacionais.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Adição de um link para a política de privacidade da RD Station.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Geração de um cartão de visitas com base nos dados fornecidos no formulário.
 
-## Deploy on Vercel
+- Implementação de um botão para download do cartão, mesmo que esteja desabilitado.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Adoção de um botão para retornar à tela anterior, que também limpa todos os campos do formulário.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Inclusão de um link "Faça um teste grátis no RD Station Marketing" que abre em uma nova aba e redireciona para o [RD Station Marketing](https://app.rdstation.com.br/signup).
+
+## Deploy na Vercel 🌐
+
+A aplicação foi implantada na plataforma Vercel e está disponível no seguinte link: [Gerador de Cartão de Visita Resultados Digitais](https://resultados-digitais-cappellotto-m5j9go7pr.vercel.app/).
+
+Sinta-se à vontade para explorar a aplicação e testar seu funcionamento. O código-fonte também está disponível para revisão. Agradeço por conferir minha solução para o desafio Resultados Digitais! 🙌
