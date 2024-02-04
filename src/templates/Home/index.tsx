@@ -6,13 +6,16 @@ import Image from "next/image";
 import * as S from "./styles";
 import { Container } from "@/components/Container";
 import { Text } from "@/components/Text";
+import { HeaderText } from "@/components/HeaderText";
 
 export function Home({ onSubmit }: any) {
   return (
     <S.Wrapper>
       <Container>
         <S.Header>
-          <Text size="large">Gerador de Cartão de Visita</Text>
+          <HeaderText font="redHat" size="large">
+            Gerador de Cartão de Visita
+          </HeaderText>
           <Text size="large">
             Crie grátis seu cartão de visita em passos rápidos! Você o insere no
             Instagram e demais canais digitais.
@@ -26,7 +29,6 @@ export function Home({ onSubmit }: any) {
             alt="Homem de headphones pintando um painel com um rolo de tinta"
             priority
           />
-          <span>Form</span>
         </S.Main>
       </Container>
     </S.Wrapper>

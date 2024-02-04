@@ -12,6 +12,7 @@ const theme = {
             md: '1.6rem',
             lg: '2rem',
             xlg: '2.4rem',
+            '2xlg': '4rem'
         }
     },
     colors: {
