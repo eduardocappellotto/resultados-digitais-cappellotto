@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> should render the footer 1`] = `
+.c1 {
+  max-width: 128rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.c2 {
+  color: #FFFFFF;
+  line-height: 1.7;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.c0 {
+  background-color: #FFFFFF;
+  padding: 1.7rem 0;
+}
+
+.c0 * {
+  font-size: 1.4rem;
+}
+
+.c0 a {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+<footer
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <a
+      href="https://legal.rdstation.com/pt/privacy-policy/"
+      target="_blank"
+    >
+      Política de Privacidade
+    </a>
+    <p
+      class="c2"
+    >
+      © 
+      2024
+       Resultados Digitais
+    </p>
+  </div>
+</footer>
+`;
