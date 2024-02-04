@@ -19,12 +19,13 @@ export const Wrapper = styled.header`
       color: ${theme.colors.dark};
       line-height: 1.1;
 
+
       ${media.greaterThan('small')`
         font-size: 1.8rem;
       `}
 
       ${media.greaterThan('medium')`
-        font-size: ${theme.font.sizes.lg};
+        font-size: ${theme.font.sizes.xlg};
       `}
     }
   `}

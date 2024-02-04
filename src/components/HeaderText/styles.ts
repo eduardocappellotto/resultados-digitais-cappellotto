@@ -4,7 +4,8 @@ import media from 'styled-media-query'
 export type WrapperProps = {
   $color: 'white' | 'dark'
   $size: 'small' | 'medium' | 'large'
-  $align: 'left' | 'center'
+  $align: 'left' | 'center',
+  $font: 'nunito' | 'redHat' | 'dark'
 }
 
 const wrapperModifiers = {
@@ -24,7 +25,7 @@ const wrapperModifiers = {
 }
 
 export const Wrapper = styled.h1<WrapperProps>`
-  ${({ theme, $color, $size = 'medium', $align }) => css`
+  ${({ theme, $color, $size = 'medium', $align, $font }) => css`
     color: ${theme.colors[$color!]};
     text-align: ${$align};
 
