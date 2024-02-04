@@ -88,37 +88,4 @@ describe("<Home />", () => {
 
     expect(mockSubmit).not.toHaveBeenCalled();
   });
-
-  /*
-
-  // Additional tests
-  it("shows error message if phone number is too short", async () => {
-    await fillAndSubmitForm("Valid Name", "validemail@example.com", "12345");
-    expect(screen.getByText("Telefone inválido")).toBeInTheDocument();
-    expect(mockSubmit).not.toHaveBeenCalled();
-  });
-
-  it("renders the privacy policy link and it is clickable", () => {
-    const privacyPolicyLink = screen.getByRole("link", {
-      name: /política de privacidade/i,
-    });
-    expect(privacyPolicyLink).toBeInTheDocument();
-    expect(privacyPolicyLink).toHaveAttribute(
-      "href",
-      "https://legal.rdstation.com/pt/privacy-policy/"
-    );
-  });
-
-  it("validates that the name field does not accept numbers", async () => {
-    await fillAndSubmitForm("1234", "validemail@example.com", "85986259101");
-    expect(screen.getByText("Nome inválido")).toBeInTheDocument();
-    expect(mockSubmit).not.toHaveBeenCalled();
-  });
-
-  it("ensures the email field accepts only valid email formats", async () => {
-    await fillAndSubmitForm("Valid Name", "notanemail", "85986259101");
-    expect(screen.getByText("E-mail não é válido")).toBeInTheDocument();
-    expect(mockSubmit).not.toHaveBeenCalled();
-  });
-  */
 });
