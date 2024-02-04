@@ -59,3 +59,17 @@ export const Main = styled.div`
     }
   `}
 `
+
+export const Form = styled.form`
+  ${({ theme }) => css`
+    max-width: 620px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: ${theme.spacings.md};
+
+    a {
+      text-decoration: underline;
+    }
+  `}
+`

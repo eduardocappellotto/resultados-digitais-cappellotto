@@ -30,6 +30,7 @@ export function Home({ onSubmit }: any) {
             priority
           />
         </S.Main>
+        <S.Form></S.Form>
       </Container>
     </S.Wrapper>
   );
