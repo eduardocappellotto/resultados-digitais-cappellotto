@@ -2,8 +2,8 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useRouter } from 'next/navigation';
 import { useCallback, useState } from 'react';
-import { FormSchemaData, formSchema } from './validation/formSchema';
-import { useFormData } from './context/FormDataContext';
+import { FormSchemaData, formSchema } from '@/validation/formSchema';
+import { useFormData } from '../context/FormDataContext';
 
 const INITIAL_PHONE_FORMAT = '(##) ####-####';
 const LONG_PHONE_FORMAT = '(##) # ####-####';

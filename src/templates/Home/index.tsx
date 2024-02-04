@@ -12,7 +12,7 @@ import { Text } from "@/components/Text";
 import { TextField } from "@/components/TextField";
 import { Button } from "@/components/Button";
 import { ArrowIcon } from "@/components/ArrowIcon";
-import { useHomeController, useHomeControllerProps } from "./controller";
+import { useHomeController, useHomeControllerProps } from "./formController";
 
 type HomeProps = Pick<useHomeControllerProps, "onSubmit">;
 
@@ -52,6 +52,7 @@ export function Home({ onSubmit }: HomeProps) {
             <S.FieldsWrapper>
               <TextField
                 label="Nome*"
+                placeholder="nome@email.com"
                 error={errors.name?.message}
                 id="name"
                 {...register("name")}
