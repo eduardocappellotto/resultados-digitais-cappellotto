@@ -1,14 +1,14 @@
 import styled, { css } from 'styled-components'
 
 type WrapperProps = {
-    $iconPosition: 'left' | 'right'
+  $iconPosition: 'left' | 'right'
 }
 
 const wrapperModifiers = {
-    left: () => css`
+  left: () => css`
     flex-direction: row-reverse;
   `,
-    right: () => css`
+  right: () => css`
     flex-direction: row;
   `
 }
@@ -30,9 +30,9 @@ export const Wrapper = styled.button<WrapperProps>`
     color: ${theme.colors.primary[900]};
     letter-spacing: 0.2px;
     cursor: pointer;
-    -webkit-box-shadow: 0px 6px 1px -2px ${theme.colors.secondary[900]};
-    -moz-box-shadow: 0px 6px 1px -2px ${theme.colors.secondary[900]};
-    box-shadow: 0px 6px 1px -2px ${theme.colors.secondary[900]};
+    -webkit-box-shadow: 0px 6px 1px -2px ${theme.colors.black};
+    -moz-box-shadow: 0px 6px 1px -2px ${theme.colors.black};
+    box-shadow: 0px 6px 1px -2px ${theme.colors.black};
     transition: 0.1s;
 
     ${!!$iconPosition && wrapperModifiers[$iconPosition!]};

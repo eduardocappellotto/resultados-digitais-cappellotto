@@ -1,8 +1,8 @@
 import styled, { css } from 'styled-components'
 
 type WrapperProps = {
-    $error: boolean
-    $disabled: boolean
+  $error: boolean
+  $disabled: boolean
 }
 
 export const Wrapper = styled.div<WrapperProps>`
@@ -17,7 +17,7 @@ export const Wrapper = styled.div<WrapperProps>`
     }
 
     ${$error &&
-        css`
+    css`
       ${Input} {
         border-color: ${theme.colors.error};
         color: ${theme.colors.error};
@@ -29,7 +29,7 @@ export const Wrapper = styled.div<WrapperProps>`
     `}
 
     ${$disabled &&
-        css`
+    css`
       cursor: not-allowed;
 
       ${Input} {
@@ -50,6 +50,8 @@ export const Label = styled.label`
     line-height: ${theme.font.sizes.sm};
     font-weight: ${theme.font.bold};
     color: ${theme.colors.white};
+
+    margin-bottom: 1.2rem;
   `}
 `
 
