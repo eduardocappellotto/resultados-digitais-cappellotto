@@ -70,7 +70,7 @@ export const Input = styled.input`
     }
 
     &::placeholder {
-      color: ${theme.colors.gray[550]};
+      color: ${theme.colors.gray[500]};
     }
   `}
 `
