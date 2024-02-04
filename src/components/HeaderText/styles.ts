@@ -15,7 +15,7 @@ const wrapperModifiers = {
     font-size: ${theme.font.sizes.xlg};
   `,
   large: (theme: DefaultTheme) => css`
-    font-size: ${theme.font.sizes['xlg']};
+    font-size: ${theme.font.sizes['2xlg']};
 
     ${media.greaterThan('medium')`
       font-size: ${theme.font.sizes['2xlg']};

@@ -1,6 +1,7 @@
 'use client'
 
 import { Wrapper as Text } from '@/components/Text/styles'
+import { Wrapper as TextField } from '@/components/TextField/styles'
 import styled, { css } from 'styled-components'
 import media from 'styled-media-query'
 
@@ -56,6 +57,53 @@ export const Main = styled.div`
         max-width: 471px;
         max-height: 347px;
       `};
+    }
+  `}
+`
+
+export const Form = styled.form`
+  ${({ theme }) => css`
+    max-width: 620px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: ${theme.spacings.md};
+
+    a {
+      text-decoration: underline;
+    }
+  `}
+`
+
+
+export const FieldsWrapper = styled.div`
+  ${({ theme }) => css`
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: ${theme.spacings.sm};
+    column-gap: 4rem;
+    grid-auto-rows: min-content;
+
+    ${media.greaterThan('medium')`
+      grid-template-columns: repeat(2, 1fr);
+    `};
+
+    ${TextField}:first-of-type {
+      ${media.greaterThan('medium')`
+        grid-column: 1 / 3;
+      `};
+    }
+  `}
+`
+
+export const Warnings = styled.div`
+  ${({ theme }) => css`
+    display: flex;
+    flex-direction: column;
+    gap: ${theme.spacings.sm};
+
+    > ul {
+      padding-left: 2rem;
     }
   `}
 `
