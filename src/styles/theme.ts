@@ -38,6 +38,9 @@ const theme = {
         light: '#F1F3F5',
         error: '#f87171',
         dark: '#212429',
+
+        gradient: 'linear-gradient(93.82deg, #6C5AE0 -1.6%, #806EFF 105.56%)',
+
     },
     spacings: {
         xs: '1.6rem',
