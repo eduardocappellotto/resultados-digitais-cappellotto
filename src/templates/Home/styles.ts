@@ -100,10 +100,15 @@ export const Warnings = styled.div`
   ${({ theme }) => css`
     display: flex;
     flex-direction: column;
-    gap: ${theme.spacings.sm};
+    gap: 1.8rem;
 
-    > ul {
+    ul {
       padding-left: 2rem;
+    }
+
+    li {
+      color: ${theme.colors.gray[200]};
+      line-height: 1.5;
     }
   `}
 `

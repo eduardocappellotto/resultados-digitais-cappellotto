@@ -37,7 +37,7 @@ const theme = {
         white: '#FFFFFF',
         black: '#000000',
         light: '#F1F3F5',
-        error: '#f87171',
+        error: '#b71c1c',
         dark: '#212429',
 
         gradient: 'linear-gradient(93.82deg, #6C5AE0 -1.6%, #806EFF 105.56%)',
@@ -45,10 +45,15 @@ const theme = {
     },
     spacings: {
         xs: '1.6rem',
+        s: '2.0rem',
         sm: '2.4rem',
+        m: '2.8rem',
         md: '3.2rem',
+        ml: '3.6rem',
+        l: '4.0rem',
         lg: '4.8rem'
     }
+
 }
 
 export default theme
