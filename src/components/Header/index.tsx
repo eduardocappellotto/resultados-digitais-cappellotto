@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Container } from "@/components/Container";
 import { Logo } from "@/components/Logo";
 import * as S from "./styles";
+import { darkerGrotesque } from "@/styles/fonts";
 
 export function Header() {
   return (
@@ -11,7 +12,9 @@ export function Header() {
       <Container>
         <Logo />
         <nav>
-          <Link href="/">Gerador de Cartão de Visita</Link>
+          <Link className={darkerGrotesque.className} href="/">
+            Gerador de Cartão de Visita
+          </Link>
         </nav>
       </Container>
     </S.Wrapper>

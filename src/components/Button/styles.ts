@@ -16,7 +16,7 @@ const wrapperModifiers = {
 export const Wrapper = styled.button<WrapperProps>`
   ${({ theme, $iconPosition }) => css`
     width: 100%;
-    height: 5.2rem;
+    height: 4.8rem;
     display: flex;
     gap: 0.8rem;
     justify-content: center;
@@ -25,7 +25,7 @@ export const Wrapper = styled.button<WrapperProps>`
     background-color: ${theme.colors.secondary[500]};
     line-height: 24px;
     font-size: ${theme.font.sizes.md};
-    font-weight: ${theme.font.extrabold};
+    font-weight: ${theme.font.bold};
     text-transform: uppercase;
     color: ${theme.colors.primary[900]};
     letter-spacing: 0.2px;
@@ -44,12 +44,12 @@ export const Wrapper = styled.button<WrapperProps>`
 
     &[disabled] {
       background-color: ${theme.colors.gray[200]};
-      color: ${theme.colors.gray[500]};
+      color: ${theme.colors.gray[400]};
       pointer-events: none;
       border-color: transparent;
-      -webkit-box-shadow: 0px 6px 1px -2px ${theme.colors.gray[500]};
-      -moz-box-shadow: 0px 6px 1px -2px ${theme.colors.gray[500]};
-      box-shadow: 0px 6px 1px -2px ${theme.colors.gray[500]};
+      -webkit-box-shadow: 0px 6px 1px -2px ${theme.colors.gray[400]};;
+      -moz-box-shadow: 0px 6px 1px -2px ${theme.colors.gray[400]};;
+      box-shadow: 0px 6px 1px -2px ${theme.colors.gray[400]};;
     }
   `}
 `

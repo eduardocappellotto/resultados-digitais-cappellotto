@@ -2,7 +2,7 @@ import { z } from 'zod'
 
 export const formSchema = z.object({
     name: z.string().min(2, 'O nome deve ter pelo menos 2 caracteres'),
-    email: z.string().min(1, 'E-mail é obrigatório').email('E-mail inv[alido'),
+    email: z.string().min(1, 'E-mail é obrigatório').email('E-mail inválido'),
     phone: z.string().min(14, 'Telefone inválido')
 })
 
